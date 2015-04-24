@@ -6,7 +6,7 @@ self.addEventListener('push', function(event) {
   var title = '日本語';
   var body = 'test';
   var icon = 'https://sjisjis.github.io/push/images/icon-192x192.png';
-  var tag = 'push-demo-notification-tag';
+  var tag = 'simple-push-demo-notification-tag';
 
   event.waitUntil(
     self.registration.showNotification(title, {
