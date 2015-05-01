@@ -35,7 +35,7 @@ self.addEventListener('notificationclick', function(event) {
         return client.focus();
     }
     if (clients.openWindow)
-      return clients.openWindow('/push2');
+      return clients.openWindow('/push3');
   }));
 
 });
